@@ -1,3 +1,8 @@
+:root {
+    --blue: #0020F4;
+    --white: #fff;
+}
+
 @font-face {
     font-family: 'Helvetica Neue Bold';
     src: url("fonts/Helvetica Neu Bold.ttf");
