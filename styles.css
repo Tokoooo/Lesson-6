@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url("fonts/Helvetica Neu Bold.ttf");
+}
+
+* {
+    margin:0 ;
+    padding: 0;
+    font-family: 'Helvetica Neue Bold', sans-serif;
+    box-sizing: border-box;
+}
+
