@@ -68,16 +68,40 @@ nav li {
 
 
 .sec-1 {
+    width: 100%;
     background-color: #0020F4;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.sec-1 button {
+    width: 100px;
+    
+}
+
+.next {
+    position: absolute;
+    top: 80%;
+    left: 40%;
 }
 
 
+.prev {
+    position: absolute;
+    top: 80%; 
+    left: 32%;
+}
+
+
+
+
 .imgPart {
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
      
 }
 
@@ -87,6 +111,7 @@ nav li {
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
+    
     
     
 }
@@ -102,9 +127,11 @@ nav li {
 }
 
 
+
+
 .sec-2 {
     max-width: 1300px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 275px; 
@@ -120,7 +147,6 @@ nav li {
 
 .sec2-img {
     display: inline-block;
-    width: 707px;
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
