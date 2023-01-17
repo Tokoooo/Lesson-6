@@ -117,8 +117,6 @@ nav li {
     margin-left: auto;
     margin-right: auto;
     
-    
-    
 }
 
 .headerImg-2 {
@@ -135,32 +133,36 @@ nav li {
 
 
 .sec-2 {
-    max-width: 1300px;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 275px; 
     margin: auto;
+    position: relative;
 }
 
 .sec2-text {
     display: inline-block;
     width: 463px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 240px;
+    top: 60px;
+
 }
 
 .sec2-img {
     display: inline-block;
     object-fit: contain;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 400px;
+    left: 840px;
+   
 
 }
 
 .sec2-img img {
-    padding-top: 250px;
-    vertical-align: middle;
+    position: absolute;
+
 }
 
 .sec2-text h2 {
