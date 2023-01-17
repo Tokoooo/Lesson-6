@@ -15,3 +15,162 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+
+header {
+    width: 100%;
+    background-color: #0020F4;
+    height: 387.56px;
+    margin: auto;
+}
+
+header img {
+    padding-left: 240px;
+    padding-top: 40px;
+}
+
+.header-div{
+   width: 1300px;
+   height: 91px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header-div a {
+    color: white;
+    font-size: 18px;
+   
+}
+
+nav, nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    width: 120px;
+}
+
+.logo-a, .header-div {
+    vertical-align: middle;
+}
+
+.contact {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 8px;
+}
+
+
+
+.sec-1 {
+    width: 100%;
+    background-color: #0020F4;
+    margin: auto;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.sec-1 button {
+    width: 100px;
+    
+}
+
+
+
+.next {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+
+.prev {
+    position: absolute;
+    top: 80%; 
+    left: 32%;
+}
+
+
+
+
+.imgPart {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+.headerImg-1 {
+    width: 707px;
+    height: 597px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.headerImg-2 {
+    width: 948px;
+    height: 800px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+
+
+
+
+.sec-2 {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 275px; 
+    margin: auto;
+}
+
+.sec2-text {
+    display: inline-block;
+    width: 463px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec2-img {
+    display: inline-block;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sec2-img img {
+    padding-top: 250px;
+    vertical-align: middle;
+}
+
+.sec2-text h2 {
+    font-size: 32px;
+    padding-bottom: 60px;
+}
+
+.sec2-text p {
+    padding-bottom: 22px;
+    font-family: 'Helvetica Neue Bold';
+}
+
+
